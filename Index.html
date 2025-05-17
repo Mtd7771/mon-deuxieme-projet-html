@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- Entête de la page -->
+  <header>
+    <nav>
+      <img src="./Logo head.png" alt="logo"width=50>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section principale -->
+  <main id="home">
+    <div>
+      <h1>Hi I'm Moussa <span>mtd</span></h1>
+      <p>This is my official portfolio website to showcase all my work related to 
+      web development and other competences.</p>
+      <a href="#">Download CV</a>
+    </div>
+
+    <!-- Images -->
+    <div>
+      <img width="30" src="/badge-fluide-pour-application_74855-3835.avif" alt="Portfolio Image">
+    </div>
+  </main>
+
+  <!-- Section About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer with a focus on modern and responsive web applications.</p>
+  </section>
+
+  <!-- Section Work -->
+  <section id="work">
+    <h2>My Work</h2>
+    <p>Here you can see some of my projects including websites, web apps, and design work.</p>
+    <video src="/Video-learning academy jojd2026.mp4" width="640" height="360" controls></video>
+  </section>
+
+  <!-- Section Resume -->
+  <section id="resume">
+    <h2>Submit Your Resume</h2>
+    <form action="#" method="POST">
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="file">Upload Resume (PDF):</label><br>
+      <input type="file" id="file" name="file" accept=".pdf"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+  <!-- footer  -->
+   <footer>
+    <p>&copy; 2025 Moussa MTD. All rights reserved.</p>
+    <div>
+      <a href="#about">About</a> |
+      <a href="#work">Work</a> |
+      <a href="#resume">Resume</a> |
+      <a href="#contact">Contact</a>
+    </div>
+   </footer>
+
+</body>
+</html>
