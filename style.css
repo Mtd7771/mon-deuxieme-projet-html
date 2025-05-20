@@ -1,0 +1,29 @@
+nav{background-color: aqua;
+    display: inline-flex;
+    border-radius: 10px;
+    align-items: center;
+    
+
+}
+nav ul li{
+
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;margin-right: 1.5rem;
+    
+}
+body{
+    font-family: 'roboto';
+    background-color: rgb(97, 84, 122);
+    text-align: center;
+}
+footer{
+padding-bottom: 20rem;
+}
+#about{
+    background-color:navy ;
+}
+li{
+    position: sticky;
+}
